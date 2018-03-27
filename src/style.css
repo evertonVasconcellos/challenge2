@@ -1,0 +1,231 @@
+.card-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-height: 250px;
+    max-width: 1000px;
+    height: 100vh;
+    width: 100vw;
+    border: 1px solid rgb(150, 150, 150);
+}
+
+.plane-picture {
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
+
+#mtn-background {
+    height: 100%;
+    width: 100%;
+}
+
+#aircraft {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.flight-data {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.date-time {
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(150, 150, 150, 0.2);
+}
+
+.date {
+    margin-left: 5%;
+}
+
+
+.date, .time, .passengers {
+    display: flex;
+    color: rgb(130,130,130);
+    font-weight: bold;
+    align-items: center;
+}
+
+.passengers {
+    margin-right: 5%;
+}
+
+.origin-dest {
+    display: flex;
+    height: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#origin {
+    width: 42%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+#city-origin {
+    display:flex;
+    width: 100%;
+    height: 33.33333%;
+    align-items: flex-end;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(130,130,130);
+}
+
+.flag {
+    width: 25%;
+    height: 33.33333%;
+}
+
+#flag-origin {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    padding-top: 22%;
+}
+
+#port-origin {
+    width: 70%;
+    height: 33.33333%;
+    font-size: 2.5em;
+    text-align: start;
+    padding-left: 3%;
+    color: rgb(130,130,130);
+}
+
+#temperature-origin {
+    display: flex;
+    width: 100%;
+    height: 33.33333%;
+    color: rgb(130,130,130); 
+    font-size: small;
+    padding-top: 3%;
+}
+
+#temp-origin {
+    width: 15%;
+    height: 50%;
+    align-self: flex-start;
+    padding-right: 3%;
+}
+
+#plane-icon {
+    display: flex;
+    width: 12%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#destination {
+    width: 42%;
+}
+
+.etd-eta {
+    border-top: 1px solid rgba(2, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#etd, #eta {
+    color: rgb(130,130,130);
+    font-weight: bold;
+}
+
+#destination {
+    width: 42%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+#city-dest {
+    display:flex;
+    width: 100%;
+    height: 33.33333%;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(130,130,130);
+}
+
+#flag-dest {
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 70%;
+    padding-top: 22%;
+    padding-left: 15%;
+}
+
+#port-dest {
+    width: 70%;
+    height: 33.33333%;
+    font-size: 2.5em;
+    text-align: end;
+    color: rgb(130,130,130);
+}
+
+#temperature-dest {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 33.33333%;
+    padding-top: 3%;
+    color: rgb(130,130,130); 
+    font-size: small;
+    text-align: end;
+}
+
+#temp-dest {
+    width: 15%;
+    height: 50%;
+    padding-left: 3%;
+}
+
+.flight-cost {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    font-weight: bold;
+    color: red;
+}
+
+.top-vj-icon {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    height: 20%;
+    background-color: rgba(150, 150, 150, 0.2);
+    
+}
+
+#vj-logo {
+    height:171%;
+}
+
+.cost {
+    display: flex;
+    height: 45%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 200%;
+    padding-top: 1%;
+}
