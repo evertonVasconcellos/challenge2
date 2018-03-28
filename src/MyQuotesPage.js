@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { LegCard } from './LegCard.js'
+import LegCard from './LegCard'
 
 import VISTAJET_LOGO from './img/icons/vistajet-logo.svg'
 import ICON_HOME from './img/icons/ic_home_black_24px.svg'
@@ -11,7 +11,7 @@ import FLAG_DK from './img/flags/dk_flag.svg'
 import FLAG_PAK from './img/flags/paquistao.jpg'
 import FLAG_UK from './img/flags/uk.jpg'
 
-export class MyQuotesPage extends React.Component {
+export default class MyQuotesPage extends React.Component {
     render() {
         return(
             <div className="page">
@@ -33,7 +33,9 @@ export class MyQuotesPage extends React.Component {
                         countryOrigin="SPA"
                         cityDest="AALBORG"
                         countryDest="DEN"
-                        flagDest={FLAG_DK}/></p>
+                        flagDest={FLAG_DK}
+                        temperatureOrigin="20.6C"
+                        temperatureDest="19.5C"/></p>
                     <p><LegCard 
                         day="Sep 15, 2016"
                         hour="10:50"
@@ -43,7 +45,9 @@ export class MyQuotesPage extends React.Component {
                         countryOrigin="BRA"
                         cityDest="ISLBMAD"
                         countryDest="PAK"
-                        flagDest={FLAG_PAK}/></p>
+                        flagDest={FLAG_PAK}
+                        temperatureOrigin="28.8C"
+                        temperatureDest="17.8C"/></p>
                     <p><LegCard 
                         day="Sep 28, 2016"
                         hour="3:15"
@@ -53,7 +57,9 @@ export class MyQuotesPage extends React.Component {
                         countryOrigin="EUA"
                         cityDest="LNDN"
                         countryDest="UK"
-                        flagDest={FLAG_UK}/></p>
+                        flagDest={FLAG_UK}
+                        temperatureOrigin="25.4C"
+                        temperatureDest="19.8C"/></p>
                 </div>
             </div>
         );

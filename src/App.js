@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import { MyQuotesPage } from './MyQuotesPage'
+import MyQuotesPage from './MyQuotesPage'
 import './style.css'
 import './mainPage.css'
 
